@@ -1,0 +1,70 @@
+html{
+    font-family: sans-serif;
+}
+
+header{
+    background:#3b5998;
+}
+
+header .logo-area{
+    display:inline-block;
+    color: white;
+}
+
+header .logo-area a{
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+}
+
+header .menu {
+    display:inline-block;
+    color: white;
+}
+
+header .menu ul li{
+    display: inline-block;
+    color: white;
+}
+
+header .menu a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+}
+
+header .icon-links {
+    display:inline-block;
+    color: white;
+}
+
+header .icon-links li {
+    display: inline-block;
+    color: white;
+}
+
+header .icon-links .quick-options {
+    display: inline-block;
+    color:white;
+}
+
+header .icon-links .quick-options li a{
+    display: inline-block;
+    color: white;
+}
+
+header .icon-links .privacy {
+    display:inline-block;
+    color: white;
+}
+
+header .search-area{
+    display: inline-block;
+    color: white;
+}
+
+header .search-area ul li{
+    display: inline-block;
+    color: white;
+}
