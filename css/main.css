@@ -86,6 +86,11 @@ header .icon-links .privacy {
     padding-left: 20px;
 }
 
+header .icon-links .privacy a {
+    display: inline-block;
+    color: white;
+}
+
 header .search-area {
     display: inline-block;
     color: white;
@@ -97,4 +102,54 @@ header .search-area {
 header .search-area ul li {
     display: inline-block;
     color: white;
+}
+
+#top-area {
+    padding: 200px 15px 90px 15px;
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#top-area .profile-info .user-image {
+    display: inline-block;
+}
+
+#top-area .profile-info .user-image img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+#top-area .profile-info .user-details {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+#top-area .profile-info .user-details h3 {
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+#top-area .profile-info .user-details a {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    width: 90px;
+    margin-right: 5%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    transition: background 0.4s ease-in-out;
+}
+
+#top-area .profile-info .user-details a:hover {
+    background: #2196F3;
 }
